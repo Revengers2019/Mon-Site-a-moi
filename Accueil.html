@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/7367/7367894.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="accueil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Accueil</title>
+    <style>
+        .navbar {
+            position:fixed;
+            width: 100%;
+            z-index: 20;
+            backdrop-filter: blur(8px);
+            font-family: "Montserrat";   
+        }
+        .nav-link{
+            font-size: 20px;
+        }
+        body {
+            background-color: #f0f0f0;
+
+        }
+        .cadre-ovale {
+    width: 300px;  /* Augmente la taille */
+    height: 300px; /* Doit être identique à width pour un cercle parfait */
+    border-radius: 50%; /* Cercle */
+    overflow: hidden;
+    border: 5px solid #002b57; /* Bordure blanche */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Placement à gauche */
+    position: relative;
+    left: 0;
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+.cadre-ovale {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+
+.cadre-ovale img {
+    width: 100%;
+    
+    height: 100%;
+    object-fit: cover;
+}
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/7367/7367894.png" alt="Logo Université" width="30" height="30">
+                Profil Pro
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Mes competence.html">Mes compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Experiences pro.html">Experiences professionelles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Formation.html">Formation</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+
+    <!--le main -->
+    <main>
+        <div class="cadre-ovale">
+            <img src="image de moi.jpg" alt="Photo">
+        </div>
+        
+
+        <div class="bloc1">
+            <p>Je suis ravi de vous accueillir sur mon site web professionnel. Vous trouverez ici toutes les informations concernant mon parcours académique, mes expériences professionnelles, mes compétences et mes réalisations.<br></p>
+            <p>N'hésitez pas à parcourir les différentes sections de mon site pour en savoir plus sur mon parcours et mes projets. Vous y trouverez :</p>
+            
+        </div>
+        <div class="container">
+            <div class="bloc2">
+                <div class="icon"><img src="https://static.vecteezy.com/system/resources/thumbnails/032/500/059/small_2x/arrow-compass-icon-geographical-icon-direction-design-elements-navigate-destination-through-compass-tools-qaba-direction-searching-sign-north-direction-symbol-png.png"></div>
+                <p ><strong><a class="nav-link" href="Formation.html"> Mon parcours académique :</strong> Les diplômes et formations que j'ai obtenus</p></a>
+            </div>
+            <div class="bloc2">   
+                <div class="icon"><img src="https://cdn-icons-png.freepik.com/512/335/335829.png"/></div>   
+                <p><strong><a class="nav-link" href="Experiences pro.html">Mes expériences pro :</strong> Les postes que j'ai occupés et les missions que j'ai réalisées.</p></a>
+            </div>
+            <div class="bloc2">
+                <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/3126/3126647.png"/></div>
+                <p><strong><a class="nav-link" href="Mes competence.html">Mes compétences :</strong> Les compétences techniques et personnelles que j'ai acquises.</p></a>
+            </div>
+            <div class="bloc2">
+                <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/177/177871.png"/></div>
+                <p><strong><a class="nav-link" href="Experiences pro.html">Mes projets :</strong> Quelques exemples de projets sur lesquels j'ai travaillé.</p></a>
+            </div>
+        </div> 
+
+        <h2>Profil</h2>
+        <div class="bloc1">
+
+            <p>Étudiant en BUT Informatique à l'IUT Paris Rive de Seine avec une forte motivation pour développer mes compétences dans divers domaines. Étant passionné par la découverte, j’ai acquis plusieurs compétences et souhaite en développer davantage.</p>
+        </div>
+
+        <h2>Centre d'interet</h2>
+
+        <div class="bloc1">
+            <ol>
+                <li>Le Cinéma de science-fiction, qui est une de mes passion depuis plus jeune.</li>
+                <hr>
+                <li>J'adore les avancées technologiques, les inventions et tout progrès scientifique.</li>
+                <hr>
+                <li>J'adore le basketball, j'y jouais souvent avec mon père qui m'a transmis sa passion pour ce sport.</li>
+            </ol>
+        </div> 
+   
+       
+        
+        
+    </main>
+
+
+
+
+
+
+<!--Le footer -->    
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-item">
+                <h3>Mon Portfolio</h3>
+                <p>Étudiant en BUT Informatique passionné par la technologie, la robotique et le développement web.</p>
+
+            </div>
+            <div class="footer-item">
+                <h3>Liens Rapides</h3>
+                <ul>
+                    <li><a href="Accueil.html">Accueil</a></li>
+                    <li><a href="Mes competence.html">Compétences</a></li>
+                    <li><a href="Experiences pro.html">Expériences</a></li>
+                    <li><a href="Formation.html">Formation</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h3>Ressources</h3>
+                
+                <blockquote><em>"Intéressé par mon profil ? Téléchargez mon CV ici !" </em></blockquote>
+                <a href="Mon CVEthan Mebaley.pdf" download class="download-btn">
+                    <i class="fas fa-file-pdf"></i> Télécharger Mon CV 
+                </a>
+            </div>
+            
+            <div class="footer-item">
+                <h3>Contact</h3>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:ethanmkp@gmail.com">ethanmkp@gmail.com</a></li>
+                    <li><i class="fab fa-github"></i> <a href="">06 65 50 74 03</a></li>
+                    <li><i class="fab fa-linkedin"></i> <a href="">Alfortville,France</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- FontAwesome pour les icônes -->
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
